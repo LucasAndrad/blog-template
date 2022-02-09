@@ -5,7 +5,7 @@ import { Home, Profile } from 'src/pages';
 export const Routes = () => {
   return (
     <RoutesReactRouterDom>
-      <Rout path='/' element={<Home />} />
+      <Route path='/' element={<Home />} />
       <Route path='/profile' element={<Profile />} />
     </RoutesReactRouterDom>
   );
