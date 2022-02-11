@@ -4,7 +4,7 @@ import { Button } from './Button';
 export const Navbar = () => {
   return (
     <div>
-      <Button>Home Page</Button>
+      <Button marginTop='30px' variant='contained'>Home Page</Button>
       <Button>Profile Page</Button>
     </div>
   );
