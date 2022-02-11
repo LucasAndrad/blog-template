@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Routes } from './components/Routes';
+import { Routes, Navbar } from 'src/components';
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes />
     </div>
   );
