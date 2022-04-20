@@ -30,6 +30,11 @@ export const Navbar = () => {
                 <Button sx={{ color: 'white', height: '50px' }}>Profile Page</Button>
               </Link>
             </Grid>
+            <Grid item>
+              <Link to={PATHS.POKEAPI}>
+                <Button sx={{ color: 'white', height: '50px' }}>PokeAPI</Button>
+              </Link>
+            </Grid>
           </Grid>
         </AppBar>
       </Toolbar>
