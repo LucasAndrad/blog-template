@@ -5,5 +5,5 @@ export const getPokemons = async () => {
   const link = `${API_LINK}${API_PATHS.POKEMONS}`;
   const response = await axios.get(link);
 
-  return response.data;
+  return response.data.results;
 };
